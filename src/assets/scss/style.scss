@@ -1,0 +1,13 @@
+@import "common/fonts";
+@import "common/variables";
+
+#malik {
+  @import "bootstrap/bootstrap";
+  @import "common/bootstrap"; // fix
+  @import "common/global";
+
+  @import "components/button";
+  @import "components/form";
+
+  @import "views/_sections";
+}

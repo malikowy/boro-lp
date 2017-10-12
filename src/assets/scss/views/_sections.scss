@@ -1,0 +1,223 @@
+@include media-breakpoint-up(sm) {
+  .image-sm {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image-xs {
+    display: none;
+  }
+
+  #logo-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    .samsung-logo {
+      position: relative;
+      top: 15px;
+      z-index: 1;
+      left: 20px;
+      transform: translateX(0);
+    }
+  }
+
+  #kv {
+    .pushtop {
+      top: 0px;
+      .kvheader {
+        width: 100%;
+        height: auto;
+      }
+      h1 {margin-bottom: 4px;}
+      h2 {margin-bottom: 24px;}
+    }
+    .text-blue {
+      color: #0077c8;
+    }
+    .scrolldown-icon {
+      margin: 26px 0 15px 0;
+      position: relative;
+      left: 25px;
+      transform: translatex(-50%);
+
+    }
+    .sm-container {
+      width: 50%;
+      position: absolute;
+      top: 100px;
+      left: 32px;
+      p {
+        width: 80%
+      }
+    }
+  }
+  @media (min-width: 939px) {
+    #kv {
+      .scrolldown-icon {
+        top: 65px;
+      }
+    }
+  }
+
+  #contest {
+    margin-top: -68px;
+    h2 {
+      letter-spacing: 2px;
+    }
+    .text-blue {
+      color: #0077c8;
+      margin-top: 7px;
+    }
+    .round-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      border: solid 2px #0077c8;
+      color: #0077c8;
+      position: relative;
+      left: -6px;
+
+      .round-icon-text {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        text-align: center;
+        font-size: 1.375rem;
+        font-weight: bold;
+      }
+    }
+
+    .icon-text {
+      margin: 0;
+      font-size: 0.9375rem;
+    }
+    .icon-row {
+      margin-top: 36px;
+      margin-bottom: 23px;
+    }
+    margin-bottom: 35px;
+  }
+
+  #prizes {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: -50px;
+    h2 {    letter-spacing: 2px;}
+
+    .round-banner {
+      width: 120px;
+      height: 120px;
+      border: solid 2px #0077c8;
+      border-radius: 120px;
+      -webkit-box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 1), 0px 0px 27px -3px #000000;
+      -moz-box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 1), 0px 0px 27px -3px #000000;
+      box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 1), 0px 0px 27px -3px #000000;
+      z-index: 1;
+      box-sizing: border-box;
+      position: relative;
+      background-color: #fff;
+      top: 28px;
+      left: 65px;
+      @include media-breakpoint-only(sm) {
+        left: 20px;
+      }
+      p {
+        color: #0077c8;
+        position: relative;
+        top: 54%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        span {
+          font-size: 1.4375rem;
+        }
+      }
+    }
+
+
+    .second {
+      top: 165px;
+    }
+    .heading {
+      margin: 35px 0 0 0;
+      font-size: 1.375rem;
+      letter-spacing: 1px;
+    }
+    .model {
+      margin: 8px 0 18px 0;
+      font-size: 1.35rem;
+    }
+  .desc {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+  }
+    .smaller-product {
+      padding-bottom: 40px;
+    }
+
+    .smaller-product {
+      padding-bottom: 40px;
+    }
+    .flexing {
+      .product {
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: -70px;
+      }
+    }
+  }
+
+  #buy {
+    padding-top: 70px;
+    background-color: #f4f4f4;
+    margin-top: -78px;
+
+    .main-title {
+      margin-bottom: 50px;
+      letter-spacing: 2px;
+    }
+    .title {
+      margin-top: 28px;
+      margin-bottom: 15px;
+      font-size: 1.25rem;
+    }
+    .btn-classic__blue {
+      margin-bottom: 60px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  #reg {
+    padding-top: 40px;
+    padding-bottom: 42px;
+    background-color: #f4f4f4;
+    margin-top: -38px;
+  }
+}
+
+.flexing {
+  .product {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+@include media-breakpoint-up(md) {
+  #prizes {
+    .smaller-product {
+      padding-bottom: 30px;
+    }
+  }
+}

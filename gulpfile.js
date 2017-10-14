@@ -38,7 +38,7 @@ var config = {
 	jsreplaceout: 'assets/js/scripts.js',
 	fontsin: 'src/assets/fonts/**/*.{ttf,woff,woff2,eot,eof,svg}',
 	fontsout: 'dist/assets/fonts/',
-
+    // SETTINGS FOR AEM
 	htmlAssetIn: 'assets/img',
 	htmlAssetOut: '/content/dam/samsung/pl',
 	cssAssetIn: '../img',
